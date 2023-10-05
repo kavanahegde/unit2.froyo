@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Froyo Flavor Counter</title>
+</head>
+<body>
+    <h1>Welcome to the Froyo Flavor Counter</h1>
+    <p>Please enter your list of comma-separated froyo flavors:</p>
+    <input type="text" id="flavorsInput" placeholder="e.g., vanilla,vanilla,strawberry,coffee,coffee">
+    <button id="countButton">Count Flavors</button>
+
+    <h2>Flavor Counts:</h2>
+    <table id="flavorTable">
+        <thead>
+            <tr>
+                <th>Flavor</th>
+                <th>Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Flavor counts will be displayed here -->
+        </tbody>
+    </table>
+
+    <!-- Include the external JavaScript file -->
+    <script src="flavor.js"></script>
+</body>
+</html>
